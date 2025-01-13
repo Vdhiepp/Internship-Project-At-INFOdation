@@ -1,0 +1,40 @@
+/* Căn chỉnh hàng cho react-select và nút */
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Định dạng vùng hiển thị danh sách */
+#members-box {
+    display: flex;
+    /* Hiển thị ngang */
+    flex-direction: row;
+    /* Xếp theo chiều ngang */
+    flex-wrap: nowrap;
+    /* Không xuống dòng */
+    overflow-x: auto;
+    /* Bật thanh cuộn ngang nếu quá dài */
+    overflow-y: hidden;
+    /* Ẩn cuộn dọc */
+    padding: 5px;
+    max-width: 100%;
+    /* Đảm bảo chiều rộng container */
+    gap: 10px;
+    /* Khoảng cách giữa các phần tử */
+}
+
+/* Định dạng từng thành viên */
+.member-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F6781;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    color: white;
+    padding: 2px 10px;
+    white-space: nowrap;
+    /* Không cho chữ xuống dòng */
+    min-width: fit-content;
+    /* Đảm bảo chiều rộng vừa đủ */
+}

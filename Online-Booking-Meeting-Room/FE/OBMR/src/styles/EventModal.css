@@ -1,0 +1,51 @@
+.my-event-modal{
+    background-color: white;
+    width: 500px;
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, .14), 0 9px 46px 8px rgba(0, 0, 0, .12), 0 11px 15px -7px rgba(0, 0, 0, .2);
+    border-radius: var(--sx-rounding-small);
+    z-index: 3;
+    position: fixed;
+}
+.button-area{
+    position: absolute;
+    right: 15px;
+}
+.btn-modal:hover{
+    background-color: #c2dcf0;
+}
+.delete-event-modal {
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .modal-title h4 {
+    font-size: 18px;
+  }
+  
+  .modal-body p {
+    font-size: 16px;
+  }
+  
+  .modal-footer {
+    margin-top: 20px;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: gray;
+    color: white;
+  }
+  
+  .position-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
